@@ -60,7 +60,7 @@ public class ScenarioProperties {
 	/**
 	 * If true a runIdIncrementer will be applied to the batch job.  Defaults to false.
 	 */
-	private boolean includeRunidIncrementer;
+	private boolean includeRunidIncrementer = true;
 
 	public String getJobName() {
 		return jobName;
